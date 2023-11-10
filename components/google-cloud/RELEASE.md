@@ -14,6 +14,7 @@
 * Group `preview.llm.rlhf_pipeline` components for better readability.
 * Add environment variable support to GCPC's `create_custom_training_job_from_component` (both `v1` and `preview` namespaces)
 * Apply latest GCPC image vulnerability resolutions (base OS and software updates).
+* Add Vertex model get component (`v1.model.ModelGetOp`).
 
 ## Release 2.5.0
 * Upload tensorboard metrics from `preview.llm.rlhf_pipeline` if a `tensorboard_resource_id` is provided at runtime.
